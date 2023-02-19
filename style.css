@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 0;
+    background: #012E3D;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    height: calc(100vh - 110px);
+    background: no-repeat center/cover url('./assets/wallpaperflare.com_wallpaper.jpg');
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 30px;
+}
+
+header nav p {
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+    color: white;
+
+}
+
+.header-content {
+    max-width: 400px;
+    margin: 150px auto;
+    text-align: center;
+}
+
+.header-content h1 {
+    margin-bottom: 10px;
+    font-size: 4rem;
+    color: #EEB302;
+}
+
+.sobre {
+    display: flex;
+    align-items: center;
+    padding: 40px 19%;
+    background-color: #012E3D
+}
+
+.sobre img {
+    border-radius: 100%;
+    border: 1px solid transparent;
+    margin-right: 50px;
+}
+
+.sobre h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.sobre p {
+    color: white;
+    text-align: center;
+}
+
+.cartas {
+    background: #e1e8f7;
+    text-align: center;
+
+
+}
+
+
+
+.cartas .h1 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+.pacotes{
+    background: #e1e8f7;
+    padding: 20px 0 0 0;
+}
+
+.pacotes-card {
+    display: flex;
+    max-width: 950px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.cartas .card1 {
+    width: 250px;
+    height: 570px;
+    background: white;
+    border-radius: 24px 0;
+    margin: 25px;
+    position: center;
+
+}
+
+.cartas .card-image {
+    width: 250px;
+    height: 350px;
+}
+
+.cartas .card-content ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.cartas .card-content ul li {
+    font-size: 13px bold;
+    display: flex;
+    align-items: center;
+    margin: 3px 0;
+}
+
+.cartas .card-content li svg {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+
+}
+
+.cartas2 {
+    background: #e1e8f7;
+    text-align: center;
+    padding: 20px;
+}
+
+.pacotes-card2 {
+    display: flex;
+    max-width: 950px;
+    margin: auto;
+    flex-wrap: wrap;
+
+
+}
+
+.cartas2 .card2 {
+    width: 250px;
+    height: 570px;
+    background: white;
+    border-radius: 24px 0;
+    margin: 25px;
+    position: center;
+
+}
+
+.cartas2 .card-image2 {
+    width: 250px;
+    height: 350px;
+}
+
+.cartas2 .card-content2 ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.cartas2 .card-content2 ul li {
+    font-size: 13px bold;
+    display: flex;
+    align-items: center;
+    margin: 3px 0;
+}
+
+.cartas2 .card-content2 li svg {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+
+}
+
+.cartas3 {
+    background: #e1e8f7;
+    text-align: center;
+    padding: 20px;
+}
+
+.pacotes-card3 {
+    display: flex;
+    max-width: 950px;
+    margin: auto;
+    flex-wrap: wrap;
+
+}
+
+.cartas3 .card3 {
+    width: 250px;
+    height: 570px;
+    background: white;
+    border-radius: 24px 0;
+    margin: auto;
+
+}
+
+.cartas3 .card-image3 {
+    width: 250px;
+    height: 350px;
+}
+
+.cartas3 .card-content3 ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.cartas3 .card-content3 ul li {
+    font-size: 13px bold;
+    display: flex;
+    align-items: center;
+    margin: 3px 0;
+}
+
+.cartas3 .card-content3 li svg {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+
+}
+
+footer {
+    background-color: #012E3D;
+    padding-top: 70px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h5 {
+    color: white;
+    font-size: 30px;
+}
+
+footer p {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 14px;
+}
+
+.social{
+    display: flex;
+    gap: 20px;
+}
+
+.social img {
+    height: 24px;
+    border-radius: 50%;
+
+
+}
+
+.kaiba {
+    border-radius: 100%;
+    border: 1px solid transparent;
+    margin-right: 50px;
+}
+
+.social a {
+
+    background-color: goldenrod;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.social a:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
+.Menu {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+button .Menu {
+    color: #ffffff;
+}
+
+.Menu2 {
+    text-decoration: none;
+}
+
+.zoom {
+	overflow: hidden;
+}
+
+.zoom img {
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.zoom:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.text-item {
+	position: absolute;
+	left: 5%;
+	right: 5%;
+	bottom: 20px;
+	z-index: 10;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #ffffff;
+	text-align: center;
+	font-weight: 700;
+	text-shadow: 0 1px 3px rgba(0,0,0,0.6);}
+
+@media (max-width: 950px) {
+    .contato {
+        padding: 60px 0;
+    }
+
+    .contato .contato-card {
+        left: 40px;
+    }
+}
+
+/* Especial para mapa */
+@media (max-width: 800px) {
+    .contato {
+        padding: 20px 0;
+    }
+
+    .contato .contato-card {
+        position: static;
+        margin: 40px auto;
+    }
+}
+
+
+
+/* RESPONSIVIDADE */
+
+/* Especial para mapa */
+@media (max-width: 950px) {
+    .contato {
+        padding: 60px 0;
+    }
+
+    .contato .contato-card {
+        left: 40px;
+    }
+}
+
+/* Especial para mapa */
+@media (max-width: 800px) {
+    .contato {
+        padding: 20px 0;
+    }
+
+    .contato .contato-card {
+        position: static;
+        margin: 40px auto;
+    }
+}
+
+/* Landscape TABLETS and down */
+@media (max-width: 767px) {}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    body {
+        margin-bottom: 55px;
+    }
+
+    header nav ul {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        z-index: 99;
+        background: #012E3D;
+        color: white;
+        font-weight: bold;
+        height: 55px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header nav p {
+        width: 100%;
+        text-align: center;
+    }
+}
