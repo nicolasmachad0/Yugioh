@@ -31,7 +31,7 @@ button {
 
 header {
     height: calc(100vh - 110px);
-    background: no-repeat center/cover url('./assets/wallpaperflare.com_wallpaper.jpg');
+    background: no-repeat center/cover url("./tumblr_o9ec9togjd1u0h15mo1_500.gif");
 }
 
 header nav {
